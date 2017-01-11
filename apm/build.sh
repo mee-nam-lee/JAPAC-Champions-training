@@ -65,6 +65,7 @@ else
   ./AgentInstall.sh AGENT_TYPE=apm STAGE_LOCATION=apm_stage AGENT_REGISTRATION_KEY="${AGENT_REGISTRATION_KEY}"
 fi
 
+echo "APP HOME ::::::: ${APP_HOME}"
 cd apm_stage
 chmod a+rx ProvisionApmJavaAsAgent.sh
 echo "yes" | ./ProvisionApmJavaAsAgent.sh -no-wallet -d "${APP_HOME}"
