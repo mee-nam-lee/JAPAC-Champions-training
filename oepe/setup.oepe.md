@@ -32,6 +32,8 @@ This tutorial demonstrates how to:
 
 #### Configure Cloud Tools Plugin ####
 
+Install OEPE on your computer or open helper VM where OEPE is already installed.
+
 Open OEPE (using desktop icon ![](images/01.png)) and set (leave the default, `home/oracle/workspace`) workspace location. Close the Welcome page. To open the *Oracle Cloud* view from the Window menu, click *Show View* and then *Other*.
 
 ![](images/02.png)
