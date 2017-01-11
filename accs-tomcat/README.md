@@ -20,7 +20,7 @@ This tutorial demonstrates how to
 
 #### Deploy Tomcat Sample Application on-premise ####
 
-Download Apache Tomcat 8.5.6 into folder `/u01` from [http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.6/bin/apache-tomcat-8.5.6.tar.gz](http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.6/bin/apache-tomcat-8.5.6.tar.gz). If the direct link doesn't work please find the right download location of the latest or desired version of Tomcat on [https://tomcat.apache.org/](https://tomcat.apache.org/).
+Download Apache Tomcat 8.5.6 into folder `/u01` (if you are using Windows based machine then use a folder: `D:\u01` - all screenshots below assume you use UNIX based environment) from [http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.6/bin/apache-tomcat-8.5.6.tar.gz](http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.6/bin/apache-tomcat-8.5.6.tar.gz). If the direct link doesn't work please find the right download location of the latest or desired version of Tomcat on [https://tomcat.apache.org/](https://tomcat.apache.org/).
 
 	[oracle@localhost Desktop]$ cd /u01
 	[oracle@localhost u01]$ wget http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.6/bin/apache-tomcat-8.5.6.tar.gz -P /u01/
